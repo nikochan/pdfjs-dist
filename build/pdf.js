@@ -9909,7 +9909,7 @@ var DEFAULT_RANGE_CHUNK_SIZE = 65536;
 var isWorkerDisabled = false;
 var fallbackWorkerSrc;
 var fakeWorkerFilesLoader = null;
-{
+/*{
   var useRequireEnsure = false;
 
   if (typeof window === 'undefined') {
@@ -9960,7 +9960,7 @@ var fakeWorkerFilesLoader = null;
       fallbackWorkerSrc = pdfjsFilePath.replace(/(\.(?:min\.)?js)(\?.*)?$/i, '.worker$1$2');
     }
   }
-}
+}*/
 var createPDFNetworkStream;
 
 function setPDFNetworkStreamFactory(pdfNetworkStreamFactory) {
